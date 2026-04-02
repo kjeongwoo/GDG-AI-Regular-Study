@@ -34,3 +34,19 @@
 
 ## 느낀 점   
 데이터를 학습하는 모델을 개발자가 직접 설계하는 것이 아니라 이미 라이브러리에 구현된 기능을 활용한다는 것이 놀라웠다. 또한, 가지고 있는 모든 데이터를 학습에 사용하지 말고 일부는 테스트 데이터용으로 남겨놓는 것이 좋다는 내용을 듣고, "학습용 데이터와 테스트용 데이터를 구분할 때 학습용에 좋은 데이터가 따로 있고 테스트용에 좋은 데이터가 정해져 있을까? 정해져 있다면 그것을 구분하는 기준은 무엇일까?" 라는 생각이 들었다.
+
+
+코드
+zip(배열1, 배열2): 배열 데이터 차례대로 묶어서 반환
+
+matplotlib
+scatter: 산점도 데이터 입력
+xlabel: x축 라벨링
+ylabel: y축 라벨링
+show: 그래프 표시
+
+from sklearn.neighbors import KNeighborsClassifier
+KNeighborClassifier(): KNN 모델
+fit
+score
+predict
